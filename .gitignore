@@ -1,0 +1,12 @@
+syntax: glob
+obj/
+bin/
+OpenCover/
+*.sln.cache
+*.g.cs
+*.g.resx
+*.g.resources
+*.sln
+*.csproj
+*.localOverrides.config
+*.userprefs
