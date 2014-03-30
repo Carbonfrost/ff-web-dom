@@ -1,6 +1,10 @@
 syntax: glob
 obj/
 bin/
+lib/*.dll
+lib/*.pdb
+.hg/
+.hgignore
 OpenCover/
 *.sln.cache
 *.g.cs
