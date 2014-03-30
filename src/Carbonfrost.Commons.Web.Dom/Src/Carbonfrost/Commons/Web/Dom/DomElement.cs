@@ -19,6 +19,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ComponentModel;
 using System.Text;
 using Carbonfrost.Commons.Shared;
 
@@ -36,6 +37,7 @@ namespace Carbonfrost.Commons.Web.Dom {
             }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public string Id {
             get {
                 return Attribute("id");
